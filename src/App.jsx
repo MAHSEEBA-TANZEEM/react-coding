@@ -3,6 +3,7 @@ import JavaScriptComp from "./components/JavaScriptComp";
 import MyComp from "./components/myComp";
 import Hooks from "./components/Hooks";
 import Api from "./components/Api";
+import Navbar from "./components/Navbar";
 
 function App() {
     const num = 25;
@@ -10,6 +11,7 @@ function App() {
   return(
     <>
        <h1>Hello World</h1>
+       <Navbar/>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime neque, eum porro cumque eaque ducimus, 
           cupiditate, incidunt exercitationem nam ullam delectus nulla voluptate laudantium doloribus ab suscipit 
